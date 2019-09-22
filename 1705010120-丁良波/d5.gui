@@ -1,0 +1,124 @@
+<Screen
+	CID = "1530206493"
+	AppID = "2"
+	AppVer = "4.1.109.0"
+	DocID = ""
+	HasCanvas = "1"
+	Width = "640"
+	Height = "480"
+	NextCID = "6"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1">
+		<Element
+			CID = "1436248698"
+			Type = "FrameWindow"
+			X = "138"
+			Y = "89"
+			Width = "400"
+			Height = "300"
+			Flags = "0"
+			WindowColour = "172,168,153,0,13"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "Normal"
+			Title = "Maximised Application"
+			TitleBarHeight = "18"
+			IconMargin = "0"
+			BorderSize = "1"
+			IsBorderless = "1"
+			IsActive = "1"
+			IsDocWindow = "0"
+			HasSunkenWindow = "1"
+			CentreText = "0"
+			UseMutedColours = "0"
+			Mirror = "0"
+			Buttons = "11"
+			Icon = "DefaultApp"/>
+		<Element
+			CID = "1436251628"
+			Type = "StaticText"
+			X = "279"
+			Y = "146"
+			Width = "100"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "1"
+			TextSize = "120"
+			Text = "取款成功"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "1436252100"
+			Type = "TextButton"
+			X = "299"
+			Y = "301"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "退出"
+			Depth = "2"
+			IsDefault = "1"
+			IsDisabled = "0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			AutoNavType = "Accept"/>
+		<Element
+			CID = "838157727"
+			Type = "Component"
+			X = "-277"
+			Y = "89"
+			Width = "400"
+			Height = "300"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Absolute"
+			Filename = "E:\ps\design\dl.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+	</Elements>
+	<Connections
+		CID = "2">
+		<Connection
+			CID = "838165017"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "Modal"
+			SourceSubItemID = ""
+			SourceRefID = "1436252100"
+			TargetRefID = "838157727"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Groups
+		CID = "3"/>
+	<SelectionGroups
+		CID = "4"/>
+	<Notes
+		CID = "5">
+		<Note
+			CID = "1530200363"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>
